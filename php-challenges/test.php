@@ -7,4 +7,5 @@ while(strpos($sentence," ")){
   	   echo $sentence;
   	}
   	var_dump(strpos($sentence," "));
+  	echo "it works";
 ?>
