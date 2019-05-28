@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>This is my first file</title>
-</head>
-<body>
-     <h1>This is my First File</h1>
-     <p>This is a new paragraph</p>
-</body>
-</html>
+<?php
+$arr=array("hello","how are you","is","ok");
+for($i=0;$i<sizeof($arr)-1;$i++){
+	if($arr[$i]>$arr[$i+1]){
+		$temp=$arr[$i+1];
+		$arr[$i+1]=$arr[$i];
+		$arr[$i]=$temp;
+	}
+}
+var_dump($arr);
+?>
