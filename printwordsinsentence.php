@@ -1,6 +1,6 @@
 <?php
-$sentence="hello. welcome to this world!";
-printWordsInSentenceWithPosition($sentence);
+//$sentence="hello. welcome to this world!";
+//printWordsInSentenceWithPosition($sentence);
 
 function printWordsInSentenceWithPosition($sentence){
     $arr_words=array();
